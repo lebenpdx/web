@@ -8,7 +8,7 @@ body {
 
 .header {
   background-color: #b5c4df;
-  padding: 20px;
+  padding: 15px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -20,7 +20,7 @@ body {
 
 .header-text {
   color: black;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   text-align: center;
 }
