@@ -8,14 +8,16 @@ body {
 
 .header {
   background-color: #b5c4df;
-  padding: 15px;
+
   width: 100%;
   position: fixed;
+  height: 90px;
   top: 0;
   left: 0;
   z-index: 9999;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .header-text {
@@ -27,7 +29,7 @@ body {
 
 .sidebar,
 .sidebar-right {
-  margin-top: 80px;
+  margin-top: 90px;
   width: 200px;
   height: 100vh;
   background: #dae1ef;
