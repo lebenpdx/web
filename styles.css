@@ -25,7 +25,8 @@ body {
   text-align: center;
 }
 
-.sidebar {
+.sidebar,
+.sidebar-right {
   margin-top: 90px;
   width: 200px;
   height: 100vh;
@@ -34,6 +35,10 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
+}
+
+.sidebar-right {
+  right: 0;
 }
 
 .sidebar a {
