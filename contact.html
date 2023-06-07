@@ -7,12 +7,11 @@
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
-    <script defer src="contact.js"></script>
   </head>
   <body>
     <h1>Contact</h1>
     <div class="contact-container">
-      <form id="contact-form">
+      <form id="contact-form" onsubmit="handleFormSubmit(event)">
         <label for="name">Name: </label>
         <input
           type="text"
@@ -32,6 +31,21 @@
 
         <input type="submit" value="Submit" />
       </form>
+      <script>
+        function handleFormSubmit(event) {
+          event.preventDefault();
+
+          // Access the form field values
+          const name = document.querySelector("#name").value;
+          const msg = document.querySelector("#msg").value;
+
+          // Print the form field values to the console
+          console.log("Name: " + name);
+          console.log("Message: " + msg);
+
+          // Perform form submission handling logic
+        }
+      </script>
     </div>
   </body>
 </html>

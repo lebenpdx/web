@@ -11,34 +11,54 @@
   <body>
     <h1>Past Projects</h1>
     <div class="project-container">
-      <a
-        href="https://colab.research.google.com/drive/1GIgx5hCbGnuBWbVQPyHt3hQb27fOZvPz?usp=sharing"
-        class="project"
-        ><img
-          src="./images/camera.png"
-          alt="Camera icon used to link to collab notebook by @Teekatas"
-          class="project-img"
-        />
-        <p class="caption">Basic bokeh</p>
-      </a>
+      <div class="card">
+        <a
+          href="https://colab.research.google.com/drive/1GIgx5hCbGnuBWbVQPyHt3hQb27fOZvPz?usp=sharing"
+          class="project"
+          ><img
+            src="./images/camera.png"
+            alt="Camera icon used to link to collab notebook by @Teekatas"
+            class="project-img"
+          />
+          <p class="caption">Basic bokeh</p>
+        </a>
+        <p class="description">
+          Quick attempt at creating a bokeh effect from a video. Utilizes
+          template matching to realign the object of interest with itself in
+          other frames
+        </p>
+      </div>
 
-      <a href="https://github.com/lebenpdx/shell" class="project"
-        ><img
-          src="./images/shell.png"
-          alt="Powershell icon used to link to basic shell implementation by openclipart.org"
-          class="project-img"
-        />
-        <p class="caption">Basic shell</p>
-      </a>
-
-      <a href="https://github.com/lebenpdx/mm" class="project"
-        ><img
-          src="./images/matlab.png"
-          alt="Matlab icon used to link to matrix multiplication implementation by pictonic.co"
-          class="project-img"
-        />
-        <p class="caption">Matrix Multiplication</p>
-      </a>
+      <div class="card">
+        <a href="https://github.com/lebenpdx/shell" class="project"
+          ><img
+            src="./images/shell.png"
+            alt="Powershell icon used to link to basic shell implementation by openclipart.org"
+            class="project-img"
+          />
+          <p class="caption">Basic shell</p>
+        </a>
+        <p class="description">
+          Basic implementation of shell features. Handles basic command line
+          options. Built in functions include: cd, cwd, echo, etc. If functions
+          are not built in, uses exec to fill in other functionalities. Can
+          handle pipes.
+        </p>
+      </div>
+      <div class="card">
+        <a href="https://github.com/lebenpdx/mm" class="project"
+          ><img
+            src="./images/matlab.png"
+            alt="Matlab icon used to link to matrix multiplication implementation by pictonic.co"
+            class="project-img"
+          />
+          <p class="caption">Matrix Multiplication</p>
+        </a>
+        <p class="description">
+          Using matrix multiplication as a basis, this shows the progression of
+          using pthreads in order to more quickly complete a task.
+        </p>
+      </div>
     </div>
   </body>
 </html>

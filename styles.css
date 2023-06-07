@@ -57,6 +57,14 @@ body {
   color: black;
 }
 
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--secondary-color);
+  width: 400px;
+  margin: 20px;
+}
+
 /*Contact*/
 
 input[type="text"],
