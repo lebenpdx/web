@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  background-color: gray;
 }
 
 .sidebar {
@@ -31,6 +32,26 @@ body {
   align-items: center;
   padding: 20px;
   margin-top: 20px;
+}
+/*About*/
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about-img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.about-text {
+  width: 300px;
+  padding-left: 50px;
+  font-size: 20px;
 }
 
 /*projects*/
