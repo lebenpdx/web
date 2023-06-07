@@ -1,4 +1,10 @@
-# web
+# Info
+
+Personal website used to highlight myself. It contains pages for "about me", projects, and contact.
+
+# How to run
+
+To run this code locally, it is recommended to use the live server extension through VSCode.
 
 # sources
 
