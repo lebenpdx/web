@@ -47,12 +47,12 @@ body {
   color: black;
   text-decoration: none;
   padding: 10px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
 }
 
 .sidebar a:hover {
-  background: #555;
+  color: red;
 }
 
 .content {
@@ -88,7 +88,7 @@ body {
 }
 
 .about-text {
-  width: 300px;
+  width: 350px;
   padding-left: 50px;
   font-size: 20px;
 }
